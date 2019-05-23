@@ -8,7 +8,7 @@ This is my version of the **[42](https://www.42.us.org/)** cadet project `ft_ls`
 2. `readdir()` to read the next file in an open directory
 3. `closedir()` to close a directory
 4. `stat()` and `lstat()`, which get most of a file's info
-```
+```c
 struct stat {
      dev_t           st_dev;           /* ID of device containing file */
      mode_t          st_mode;          /* mode of file */
