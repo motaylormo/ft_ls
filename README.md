@@ -4,10 +4,10 @@ This is my version of the **[42](https://www.42.us.org/)** cadet project `ft_ls`
 The command `ls` recoded.
 
 ### Functions used
-1. `opendir()` to open a directory
-2. `readdir()` to read the next file in an open directory
-3. `closedir()` to close a directory
-4. `stat()` and `lstat()`, which get most of a file's info
+* `opendir()` to open a directory
+* `readdir()` to read the next file in an open directory
+* `closedir()` to close a directory
+* `stat()` and `lstat()`, which get most of a file's info
 ```c
 struct stat {
      dev_t           st_dev;           /* ID of device containing file */
@@ -34,12 +34,12 @@ struct timespec {
      long           tv_nsec; /* nanoseconds */
 }
 ```
-5. `getpwuid()` to get the name of a file's user
-6. `getgrgid()` to get the name of a file's group
-7. `time()` to get the current time
-8. `ctime()` to turn the date (`time_t`) into a str that formats the date for human use, rather than machine use. (Example: `Wed Apr 17 12:55:20 2019`)
-9. `major()` and `minor()`—which are technically macros, but function-like ones—to pull the major and minor device number out of the device ID.
-10. `readlink()` to get the link of a file that is a link
-12. `listxattr()` to get the extended attributes of a file that has them
-13. `getxattr()` to get the size of a specific extended attribute
-14. `acl_get_link_np()` to get ACL (access control list) for a file
+* `getpwuid()` to get the name of a file's user
+* `getgrgid()` to get the name of a file's group
+* `time()` to get the current time
+* `ctime()` to turn the date (`time_t`) into a str that formats the date for human use, rather than machine use. (Example: `Wed Apr 17 12:55:20 2019`)
+* `major()` and `minor()`—which are technically macros, but function-like ones—to pull the major and minor device number out of the device ID.
+* `readlink()` to get the link of a file that is a link
+* `listxattr()` to get the extended attributes of a file that has them
+* `getxattr()` to get the size of a specific extended attribute
+* `acl_get_link_np()` to get ACL (access control list) for a file
