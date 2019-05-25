@@ -1,7 +1,7 @@
+This is my version of the **[42](https://www.42.us.org/)** cadet project `ft_ls` from the UNIX branch.
+
 # ft_ls
 The command `ls` recoded.
-
-This is my version of the **[42](https://www.42.us.org/)** cadet project `ft_ls`.
 
 ### Functions used
 1. `opendir()` to open a directory
